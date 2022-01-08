@@ -1,7 +1,5 @@
 @media (min-width:300px) and (max-width :600px){
-    body{
-        background-color: red;
-    }
+
     .container{
         display: flex;
         flex-direction: column;
