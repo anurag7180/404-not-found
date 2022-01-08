@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    font-family: 'Shadows Into Light', cursive;
+    padding: 14px;
+    text-transform: uppercase;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    padding: 20px;
+}
+.box1 img{
+    width: 500px;
+    height: 460px;
+
+}
+.box2{
+    /* border: 2px solid black; */
+    padding: 20px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.box2 h1{
+    font-size: 60px;
+    width: 60%;
+}
+.box2 p{
+    padding: 30px 0px;
+    font-size: 20px;
+    width: 30%;
+    line-height: 1.4;
+}
+button{
+    padding: 18px;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: black;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+}
+footer{
+    text-align: center;
+    padding: 16px;
+}
+footer a{
+    text-decoration: none;
+}

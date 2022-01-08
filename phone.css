@@ -1,0 +1,29 @@
+@media (min-width:300px) and (max-width :600px){
+    body{
+        background-color: red;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .box1{
+
+        text-align: center;
+    }
+    .box1 img {
+        width: 400px;
+        height: 300px;
+    }
+    .box2 h1{
+        font-size: 45px;
+        /* text-align: center; */
+        width: 100%;
+        line-height: 1.1;
+    }
+    .box2 p{
+        /* text-align: center; */
+        width: 100%;
+        padding: 10px 0px;
+        font-size: 20px;
+    }
+}
